@@ -8,17 +8,13 @@ Uma landing page moderna para academia, desenvolvida com foco em design, respons
 
 ### Desktop
 <p align="center">
-  <img src="./assets/image/README/preview.jpg" alt="Versão Desktop" width="900">
+  <img src="./assets/image/preview1.jpg" alt="Versão Desktop" width="900">
 </p>
 
-### Tablet
-<p align="center">
-  <img src="./assets/image/README/tablet.png" alt="Versão Tablet" width="700">
-</p>
 
 ### Mobile
 <p align="center">
-  <img src="./assets/image/README/mobile.png" alt="Versão Mobile" width="300">
+  <img src="./assets/image/preview2.png" alt="Versão Mobile" width="300">
 </p>
 
 ---
