@@ -47,7 +47,7 @@ Uma landing page moderna para academia, desenvolvida com foco em design, respons
 
 🔗 **Acesse o projeto:**
 
-> ironpulseclub.vercel.app/
+> https://ironpulseclub.vercel.app/
 
 ---
 
