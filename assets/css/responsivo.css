@@ -1,0 +1,311 @@
+
+/*========== MOBILE ==========*/
+@media (max-width: 1080px) {
+  section{
+     padding: 6rem 4% 4rem;
+  }
+  .hero {
+    background-image: url("../image/mobile4.webp");
+    background-size: 100%;
+    background-position: center top;
+    padding: 9rem 4% 4rem;
+    background-color: #0e0e0e;
+    background-repeat: no-repeat;
+    align-items: flex-start;
+  }
+
+  .hero__content {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero__logo {
+    display: flex;
+    justify-content: center;
+  }
+  .hero__logo img {
+    width: 140px;
+ 
+  }
+
+  .hero__badge {
+    padding: 6px 14px;
+    font-size: 0.75rem;
+    display: none;
+  }
+  .hero__title {
+    font-size: 1.8rem;
+    line-height: 1.1;
+    text-align: center;
+  }
+
+  .hero__description {
+    font-size: 0.95rem;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .hero__button {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .hero__button .btn {
+    width: 100%;
+  }
+
+  .benefits {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .benefits li {
+    font-size: 0.9rem;
+  }
+
+  .hero__stats {
+    padding: 14px;
+    gap: 1rem;
+  }
+
+  .stats__number {
+    font-size: 1.25rem;
+  }
+
+  .stats__label {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+
+
+  .quemSomos{
+    margin-top: -40px;
+}
+
+.quemSomos__content{
+    padding: 2rem 1.5rem;
+    gap: 2rem;
+    border-radius: 20px;
+}
+
+.quemSomos__content::before{
+    border-radius: inherit;
+}
+
+.quemSomos__content::after{
+    top: -10%;
+    left: -35%;
+    width: 90%;
+    height: 120%;
+    transform: rotate(-20deg);
+}
+
+.quemSomos__button{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.quemSomos__button .btn{
+    width:100%;
+    max-width:320px;
+    justify-content:center;
+    white-space:nowrap;
+}
+
+
+
+.modalidades{
+    min-height:auto;
+}
+
+.modalidades__content{
+    gap:2rem;
+}
+
+.modalidades__grid{
+    grid-template-columns:1fr;
+    justify-items:center;
+    gap:1.5rem;
+}
+
+.modalidades__card{
+    width:100%;
+    max-width:380px;
+}
+
+
+.pricing__content{
+    gap:2rem;
+}
+
+/* Grid */
+.pricing__grid{
+    grid-template-columns:1fr;
+    justify-items:center;
+    gap:1.5rem;
+}
+
+/* Card */
+.pricing__card{
+    width:100%;
+    max-width:380px;
+    padding:1.5rem;
+}
+
+/* Header */
+.pricing__title{
+    font-size:1.75rem;
+}
+
+.pricing__price{
+    font-size:2.5rem;
+}
+
+.pricing__price span{
+    font-size:.9rem;
+}
+
+/* Benefícios */
+.benefits--circle span{
+    font-size:.95rem;
+}
+
+/* CTA */
+.acao__content{
+    padding:2rem 1.5rem;
+    border-radius:1.5rem;
+    gap:1.5rem;
+}
+
+.acao__titulos{
+    gap:1rem;
+}
+
+.acao__titulos h2{
+    font-size:2.2rem;
+}
+
+.acao__paragrafos,
+.acao__info{
+    font-size:.95rem;
+}
+
+
+.avaliacoes__grid{
+    display:flex;
+    gap:1rem;
+    overflow-x:auto;
+    scroll-snap-type:x mandatory;
+    scroll-padding:0 50%;
+    padding-inline:calc(50% - 160px);
+
+    -ms-overflow-style:none;
+    scrollbar-width:none;
+}
+
+.avaliacoes__grid::-webkit-scrollbar{
+    display:none;
+}
+
+.avaliacao__card{
+    flex:0 0 320px;
+    scroll-snap-align:center;
+}
+
+
+.acao{
+    padding-block:4rem;
+}
+
+.acao__content{
+    padding:2rem 1.5rem;
+    gap:1.5rem;
+    border-radius:1.5rem;
+}
+
+.acao__titulos{
+    gap:1rem;
+    max-width:100%;
+}
+
+.acao__titulos h2{
+    font-size:clamp(2rem, 8vw, 2.8rem);
+    line-height:1.1;
+}
+
+.acao__paragrafos,
+.acao__info{
+    font-size:.95rem;
+    line-height:1.6;
+}
+
+.acao__button{
+    display:flex;
+    justify-content:center;
+    width:100%;
+}
+
+.acao__button .btn{
+    width:100%;
+    max-width:340px;
+    justify-content:center;
+    white-space:nowrap;
+}
+.btn{
+    font-size:.95rem;
+    padding:12px 20px;
+    gap:.75rem;
+}
+
+
+.footer{
+    padding:3rem 0 1.5rem;
+}
+
+.footer__content{
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:2rem;
+    text-align:center;
+}
+
+.footer__left{
+    align-items:center;
+    max-width:100%;
+}
+
+.footer__logo img{
+    width:150px;
+}
+
+.footer__info p{
+    font-size:.95rem;
+    line-height:1.6;
+}
+
+.footer__social{
+    justify-content:center;
+    gap:.75rem;
+}
+
+.footer__social a{
+    width:2.7rem;
+    height:2.7rem;
+    font-size:1.1rem;
+}
+
+.footer__line{
+    margin:2rem 0 1rem;
+}
+
+.footer__copyright p{
+    font-size:.8rem;
+}
+
+
+}
